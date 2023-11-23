@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./post.css">
+	<title>Agregar Producto</title>
+</head>
+
+
+<body>
+	<center><h2>Add</h2></center>
+	<form action="post" id="formu" method="post">
+		<label for="id">id:</label>
+		<input type="number" id="id" name="id" placeholder="Ingresa el id del producto" required>
+
+        <label for="nombrep">Nombre:</label>
+		<input type="text" id="nombrep" name="nombrep" placeholder="Ingresa el nombre del producto" required>
+
+        <label for="descripcionp">Descripcion:</label>
+		<input type="text" id="descripcionp" name="descripcionp" placeholder="Ingresa descripcion del producto" required>
+
+		<label for="precio">Precio:</label>
+		<input type="number" id="precio" name="precio" placeholder="Ingresa el precio del producto" required>
+
+        <label for="cantidad">Cantidad:</label>
+		<input type="number" id="cantidad" name="cantidad" placeholder="Ingresa la cantidad de productos" required>
+
+		<input type="submit" value="Enviar">
+        <input type="reset" value="Refrescar">
+	</form>
+</body>
+</html>

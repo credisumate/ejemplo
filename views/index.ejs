@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Mi sitio web </title>
+  </head>
+  <body>
+    <h1> Bienvenido a mi sitio web </h1>
+    <% if (usuario) { %>
+      <p> Hola <%= usuario.nombre %> </p>
+    <% } else { %>
+      <p> Inicia sesión para ver contenido exclusivo </p>
+    <% } %>
+  </body>
+</html>
